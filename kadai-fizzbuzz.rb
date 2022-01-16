@@ -1,8 +1,8 @@
 def fizzbuzz(num)
   if num == 1
-    return num.to_s
+    return num
   elsif num == 2
-    return num.to_s
+    return num
   elsif (num%3 == 0) && (num%5 == 0)
     return 'FizzBuzz'
   elsif num%3 == 0
@@ -10,7 +10,7 @@ def fizzbuzz(num)
   elsif num%5 == 0
     return 'Buzz'
   else
-    return num.to_s
+    return num
   end
 end
 
